@@ -1,0 +1,7 @@
+// both imports work when building `ng build` or `ng serve`
+@import "theme";
+// importing relative as below works for tests `ng test`
+// @import "../sass/theme";
+h1 {
+  color: $h1-color;
+}
